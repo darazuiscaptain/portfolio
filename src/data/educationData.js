@@ -1,11 +1,11 @@
 export const educationData = [
     {
         id: 1,
-        course: 'Vilnius College of Technologies and Design',
+        course: 'WOODBURY UNIVERSITY',
         // course: 'Higher Secondary Education',
         institution: 'Bachelor degree of computer science',
-        startYear: 'Feb 2012',
-        endYear: 'Feb 2016'
+        startYear: '2012',
+        endYear: '2015'
     },
     // {
     //     id: 2,

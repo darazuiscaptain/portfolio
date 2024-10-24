@@ -1,23 +1,23 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Tech Loft',
-        jobtitle: 'Backend Developer',
-        startYear: 'Apr 2021',
-        endYear: 'June 2024'
+        company: 'TVG Consulting',
+        jobtitle: 'Full stack and Blockchain developer',
+        startYear: 'JUL 2023',
+        endYear: 'RECENT'
     },
     {
         id: 2,
-        company: 'PEPPERIT',
-        jobtitle: 'Frontend Developer',
-        startYear: 'Feb 2016',
-        endYear: 'Mar 2021'
+        company: 'Fast Switch',
+        jobtitle: 'Backend and Blockchain developer',
+        startYear: 'MAY 2019',
+        endYear: 'JUN 2023'
     },
-    // {
-    //     id: 3,
-    //     company: 'Wonka Industries',
-    //     jobtitle: 'PM',
-    //     startYear: '2023',
-    //     endYear: 'Present'
-    // },
+    {
+        id: 3,
+        company: 'The Judge Group',
+        jobtitle: 'Frontend developer',
+        startYear: 'FEB 2016',
+        endYear: 'MAR 2019'
+    },
 ]

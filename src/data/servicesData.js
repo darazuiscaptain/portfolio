@@ -30,7 +30,7 @@ export const servicesData = [
     },
     {
         id: 5,
-        title: 'Tutoring',
+        title: 'Blockchain Development',
         icon: <FaChalkboardTeacher />
     },
 

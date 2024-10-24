@@ -61,6 +61,8 @@ import wordpress from '../assets/svg/skills/wordpress.svg'
 import asp from '../assets/svg/skills/asp.svg'
 import core from '../assets/svg/skills/core.png'
 import node from '../assets/svg/skills/node.svg'
+import solidity from '../assets/svg/skills/solidity.svg'
+import blockchain from '../assets/svg/skills/blockchain.svg'
 
 import azure from '../assets/svg/skills/azure.svg'
 import blender from '../assets/svg/skills/blender.svg'
@@ -238,6 +240,12 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'smart contracts':
+            return blockchain;
+        case 'web3':
+            return blockchain;
+        case 'solidity':
+            return solidity;
         default:
             break;
     }

@@ -1,12 +1,13 @@
 
 import one from '../assets/svg/projects/1.png'
 import two from '../assets/svg/projects/2.png'
-import three from '../assets/svg/projects/shop.png'
+import three from '../assets/svg/projects/3.png'
 import four from '../assets/svg/projects/4.png'
 import five from '../assets/svg/projects/5.png'
 import six from '../assets/svg/projects/6.png'
-import seven from '../assets/svg/projects/myday.png'
-import eight from '../assets/svg/projects/restaurant.png'
+import seven from '../assets/svg/projects/7.png'
+import eight from '../assets/svg/projects/8.png'
+import nine from '../assets/svg/projects/9.png'
 // import seven from '../assets/svg/projects/seven.svg'
 // import eight from '../assets/svg/projects/eight.svg'
 
@@ -14,90 +15,90 @@ import eight from '../assets/svg/projects/restaurant.png'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Food-Diary project',
-        projectDesc: 'This project is about proper food-diary. ',
-        tags: ['React', 'Asp.net'],
-        code: 'https://github.com/darazuiscaptain/food-diary-asp-react',
-        demo: 'https://pkirilin-food-diary-demo.netlify.app/',
-        image: six
+        projectName: 'BaseMint',
+        projectDesc: 'Discover, collect, and sell extraordinary NFTs. ',
+        tags: ['NextJS', 'Solidity', 'MetaMask'],
+        code: 'https://github.com/darazuiscaptain/blockchain-nft',
+        demo: 'https://b-blockchain-nft.vercel.app/',
+        image: one
     },
     {
         id: 2,
         projectName: 'Shop',
-        projectDesc: 'This project is shop site.',
-        tags: ['React', 'Node', 'CSS', 'Material Ui'],
+        projectDesc: 'Online electronic shop site.',
+        tags: ['MERN', 'Tailwind CSS', 'Material Ui'],
         code: 'https://github.com/darazuiscaptain/shopservice',
         demo: 'https://shop-savvy.netlify.app/',
-        image: three
+        image: two
       
     },
     {
         id: 3,
-        projectName: 'My day',
-        projectDesc: 'This project is about new way Of working. ',
-        tags: ['React', 'Redux', 'express', 'Node', 'MongoDB'],
-        code: 'https://github.com/darazuiscaptain/myday',
-        demo: 'https://monday-8oy3.onrender.com/',
-        image: seven
+        projectName: 'Shopiverse',
+        projectDesc: 'State-of-the-art E-Commerce platform. ',
+        tags: ['MERN', 'Tailwind CSS'],
+        code: 'https://github.com/darazuiscaptain/shopiverse',
+        demo: 'https://shopiverse-client.vercel.app/',
+        image: three
     },
     
     {
         id: 4,
-        projectName: 'Housing project',
-        projectDesc: 'This project aims to sale new homes and condos. ',
-        tags: ['React', 'Asp.net'],
-        code: 'https://github.com/darazuiscaptain/house-rental',
-        demo: 'https://www.projethabitation.com/',
-        image: one
+        projectName: 'Decentraland Marketplace',
+        projectDesc: 'This project is about NFT Marketplace. ',
+        tags: ['React', 'NFT'],
+        code: 'https://github.com/darazuiscaptain/decentraland',
+        demo: 'https://decentraland.org/marketplace/',
+        image: four
     },
-    // {
-    //     id: 5,
-    //     projectName: 'Restaurant',
-    //     projectDesc: 'This project is restaurant site.',
-    //     tags: ['Vue', 'Node'],
-    //     code: 'https://github.com/darazuiscaptain/shopservice',
-    //     demo: 'https://dbs-project.vercel.app/',
-    //     image: eight
+    {
+        id: 5,
+        projectName: 'E-shop',
+        projectDesc: 'E-commerce web application',
+        tags: ['MERN', 'Bootstrap', 'Redux Toolkit'],
+        code: 'https://github.com/darazuiscaptain/platinum',
+        demo: 'https://novamart.onrender.com/',
+        image: five
       
-    // },
+    },
     
-    // {
-    //     id: 4,
-    //     projectName: 'Travel guide',
-    //     projectDesc: 'This project aims to help you with your travel.',
-    //     tags: ['React', 'Asp.net', 'Tailwind CSS'],
-    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     demo: 'https://www.caesarstravelpartners.com',
-    //     image: two
+    {
+        id: 6,
+        projectName: 'FIND MY MECHANIC',
+        projectDesc: 'Find Your Nearby Mechanics Book Services Instantly',
+        tags: ['React', 'Tailwind CSS'],
+        code: 'https://github.com/darazuiscaptain/Machine',
+        demo: 'https://mech.soorajrao.in/',
+        image: six
         
-    // },
-    // {
-    //     id: 5,
-    //     projectName: 'Nutrition brand products',
-    //     projectDesc: 'This project focuses on 3XL Nutrition brand products.',
-    //     tags: ['React', 'Asp.net', 'Tailwind CSS'],
-    //     code: 'https://github.com/darazuiscaptain/restaurant',
-    //     demo: 'https://www.nutrition-complete.com/index.html#cmd',
-    //     image: four
-    // },
-    // {
-    //     id: 6,
-    //     projectName: 'More leads, More Exposure, More Sales.',
-    //     projectDesc: 'This site focuses on real-time leads',
-    //     tags: ['Next JS', 'Asp.net', 'Tailwind CSS'],
-    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     demo: 'https://www.gametimeleads.com/home',
-    //     image: five
-    // },
-    // {
-    //     id: 6,
-    //     projectName: 'Uber Lite',
-    //     projectDesc: 'Uber clone',
-    //     tags: ['Flutter'],
-    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     image: six
-    // },
+    },
+    {
+        id: 7,
+        projectName: 'MedBlock',
+        projectDesc: 'A Decentralised platform to store patients medical records in a chronological order using blockchain technology',
+        tags: ['MERN', 'Solidity', 'Bootstrap'],
+        code: 'https://github.com/darazuiscaptain/med_block',
+        demo: 'https://medblock.netlify.app/',
+        image: seven
+    },
+    {
+        id: 8,
+        projectName: 'Restaurant.',
+        projectDesc: 'Order Delivery near you!',
+        tags: ['React', 'Tailwind CSS'],
+        code: 'https://github.com/darazuiscaptain/mikerestaurant',
+        demo: 'https://mike-restaurant-two.vercel.app/#home',
+        image: eight
+    },
+    {
+        id: 9,
+        projectName: 'Restaurant & Dine',
+        projectDesc: 'Enjoy a Taste of Heaven',
+        tags: ['MERN'],
+        code: 'https://github.com/darazuiscaptain/soham',
+        demo: 'https://soham-restaurant-dine.netlify.app/',
+        image: six
+    },
     // {
     //     id: 7,
     //     projectName: 'Stock Market App',
